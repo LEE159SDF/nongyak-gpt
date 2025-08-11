@@ -44,6 +44,5 @@ elif st.session_state.page == 'consent':
 # 3️⃣ 상담 화면 (채팅 이미지 + 외부 GPT 링크 버튼)
 elif st.session_state.page == 'chat':
     st.image("채팅화면.png", use_container_width=True)
-    st.markdown("### <span style='color:red; font-size:36px;'>말씀해주세요. 듣고 있습니다</span>", unsafe_allow_html=True)
     st.markdown("### 👉 [🔗 여기 클릭하여 상담 계속하기](https://chatgpt.com/g/g-688c7dbe0a0081919635c927bf1597d6-nongyag-gpt/)", unsafe_allow_html=True)
     st.info("※ 테스트페이지 입니다. 링크를 클릭하여 상담을 진행해 주세요.")
